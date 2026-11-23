@@ -1,0 +1,96 @@
+{
+ "mw": {
+  "disco_total_mb": 2153.8,
+  "ram_obj_total_mb": 7363.2,
+  "ratio_obj": 3.42,
+  "ram_arrow_total_mb": 2891.7,
+  "ratio_arrow": 1.34,
+  "pico_max_ratio": 4.61,
+  "ram_opt_total_mb": 1203.3
+ },
+ "colapso": {
+  "resultado": "MemoryError",
+  "pasos": [
+   {
+    "paso": "leer vehiculo",
+    "rss_pico_mb": 2437.2,
+    "seg": 13.1
+   },
+   {
+    "paso": "leer matricula",
+    "rss_pico_mb": 2437.2,
+    "seg": 16.5
+   },
+   {
+    "paso": "vehiculo + matricula",
+    "rss_pico_mb": 2437.2,
+    "seg": 16.5
+   },
+   {
+    "paso": "leer pagos",
+    "rss_pico_mb": 3762.4,
+    "seg": 23.2
+   },
+   {
+    "paso": "MemoryError",
+    "rss_pico_mb": 4106.8,
+    "seg": 25.2
+   }
+  ],
+  "limite_gb": 6.0
+ },
+ "spark": {
+  "resultado": "COMPLETO",
+  "grupos": 53852,
+  "filas_union": 10886481,
+  "particiones_pagos": 6,
+  "seg": 67.6,
+  "top_loja": [
+   [
+    "LOJA",
+    4467691.56
+   ],
+   [
+    "PUYANGO",
+    193155.93
+   ],
+   [
+    "MACARA",
+    191787.16
+   ],
+   [
+    "PALTAS",
+    184340.82
+   ],
+   [
+    "SARAGURO",
+    180366.38
+   ]
+  ],
+  "memoria_driver": "2g",
+  "rss_pico_mb": 2691
+ },
+ "esc": [
+  {
+   "escenario": "parque nacional, 1 año(s) de historia",
+   "disco_gb": 2.5,
+   "ram_pandas_gb": 8.6,
+   "ram_pico_join_gb": 11.6,
+   "particiones_spark_128MB": 20
+  },
+  {
+   "escenario": "parque nacional, 5 año(s) de historia",
+   "disco_gb": 12.6,
+   "ram_pandas_gb": 43.2,
+   "ram_pico_join_gb": 58.2,
+   "particiones_spark_128MB": 99
+  },
+  {
+   "escenario": "parque nacional, 10 año(s) de historia",
+   "disco_gb": 25.3,
+   "ram_pandas_gb": 86.4,
+   "ram_pico_join_gb": 116.5,
+   "particiones_spark_128MB": 198
+  }
+ ]
+}
