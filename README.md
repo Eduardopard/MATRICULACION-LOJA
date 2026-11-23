@@ -1,7 +1,7 @@
 # EDA del proceso de matriculación vehicular (ANT) – Hito 2
 
 **UIDE · Escuela de Ciencias de la Computación · Prácticas y Herramientas de Big Data**
-Integrantes: Eduardo Pardo, James Romero y Ángel Paladines · Docente: Daniel Patiño
+Integrantes: Eduardo Pardo, James Romero y Ángel Paladines 
 
 Proyecto Integrador: simulación del proceso de matriculación vehicular en Ecuador (con foco en Loja).
 Este repositorio contiene el **Análisis Exploratorio de Datos (EDA)**, la **auditoría de nulos**, el
