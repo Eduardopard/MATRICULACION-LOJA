@@ -1,0 +1,9 @@
+variable,cardinalidad,top_3
+clase,11,MOTOCICLETA (30.5%); AUTOMOVIL (27.3%); SUV (17.5%)
+combustible,5,GASOLINA (85.1%); DIESEL (12.6%); HIBRIDO (1.7%)
+servicio,4,PARTICULAR (92.1%); COMERCIAL (6.8%); ESTADO (1.1%)
+tipo,2,LIVIANO (94.8%); PESADO (5.2%)
+origen,2,PARQUE_INEC_2019 (81.9%); NUEVO_SRI_2026 (18.1%)
+provincia,24,GUAYAS (24.0%); PICHINCHA (22.6%); MANABI (8.5%)
+marca,338,CHEVROLET (23.5%); SUZUKI (6.1%); KIA (5.8%)
+color,20,NEGRO (27.1%); BLANCO (21.6%); PLOMO (18.8%)

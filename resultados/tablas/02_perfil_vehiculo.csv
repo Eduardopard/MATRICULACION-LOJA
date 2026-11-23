@@ -1,0 +1,22 @@
+columna,tipo_atomico,tipo_fisico,nulos_%,distintos,unicidad,constancia,moda,min,mediana,max,asimetria
+id,Entero · identificador (clave),int32,0.0,2821910,1.0,0.0,1,1.0,1410955.5,2821910.0,0.0
+placa,Texto · código con patrón,str,0.0,2821910,1.0,0.0,AJ645Q,6.0,7.0,7.0,
+marca,Categórico nominal,str,0.0,338,0.0001,0.2354,CHEVROLET,2.0,6.0,22.0,
+modelo,Texto libre (alta cardinalidad),str,81.93,3513,0.0069,0.0253,SOLUTO LX AC 1.4 4P 4X,2.0,12.0,65.0,
+anio,Entero · ordinal temporal,int16,0.0,43,0.0,0.0906,2027,1985.0,2014.0,2027.0,-0.52
+color,Categórico nominal,str,0.0,20,0.0,0.2712,NEGRO,4.0,5.0,10.0,
+tipo,Categórico binario,str,0.0,2,0.0,0.948,LIVIANO,6.0,7.0,7.0,
+clase,Categórico nominal,str,0.0,11,0.0,0.3051,MOTOCICLETA,3.0,9.0,11.0,
+subcategoria,Categórico nominal,str,81.93,50,0.0001,0.5758,PASEO,3.0,5.0,14.0,
+cilindraje,Decimal · continuo (cm³),float32,0.0,522,0.0002,0.1051,1368.0,0.0,1368.0,299800.0,15.529999732971191
+combustible,Categórico nominal,str,0.0,5,0.0,0.851,GASOLINA,3.0,8.0,9.0,
+servicio,Categórico nominal,str,0.0,4,0.0,0.9209,PARTICULAR,5.0,10.0,10.0,
+pasajeros,Entero · discreto,float64,18.07,97,0.0,0.5687,5.0,1.0,5.0,180.0,8.14
+tonelaje,Decimal · continuo (t),float32,18.07,2017,0.0009,0.4336,0.75,0.009999999776482582,0.75,744.0,17.700000762939453
+avaluo,Decimal · moneda (USD),float64,0.0,665769,0.2359,0.0051,19999.0,4.85,2119.79,838800.0,8.69
+numero_chasis,Texto · código 17 car.,str,0.0,2821910,1.0,0.0,9SYFDYFGN3S9DNKG1,17.0,17.0,17.0,
+numero_motor,Texto · código 11 car.,str,0.0,2821910,1.0,0.0,J1HCF3HTAMC,11.0,11.0,11.0,
+provincia,Categórico nominal,str,0.0,24,0.0,0.2402,GUAYAS,4.0,7.0,30.0,
+canton,Categórico nominal,str,0.0,209,0.0001,0.2244,GUAYAQUIL,3.0,8.0,27.0,
+propietario_id,Entero · clave foránea,int32,0.0,2180339,0.7726,0.0451,2176633,1.0,1213447.5,2211440.0,-0.08
+origen,Categórico binario,str,0.0,2,0.0,0.8193,PARQUE_INEC_2019,14.0,16.0,16.0,

@@ -1,0 +1,5 @@
+tabla,apellidos,color,direccion,email,fecha_caducidad,fecha_matriculacion,fecha_nacimiento,kilometraje,modelo,observaciones,pasajeros,subcategoria,telefono,tonelaje
+vehiculo,,0.0,,,,,,,81.93,,18.07,81.93,,18.07
+propietario,1.58,,2.95,17.33,,,1.58,,,,,,3.0,
+matricula,,,,,11.52,11.52,,,,,,,,
+revision_vehicular,,,,,,,,7.97,,89.53,,,,

@@ -1,0 +1,11 @@
+columna,nulos_%,mecanismo,evidencia,estrategia
+propietario.telefono,"3,0",MCAR,"Efecto nulo: AUC con edad = 0,50 y V de Cramér ≤ 0,007 con zona y provincia.",No imputar: es un dato de contacto; se deja vacío.
+propietario.email,"17,3",MAR,"Depende de la edad (AUC = 0,90): falta más en mayores.","No imputar; si un modelo lo usa, crear indicador 'sin_email' y condicionar por edad."
+propietario.direccion,"3,0",MAR,"Depende de si el cantón es rural (V = 0,15; dato que existe vía join).","Imputación condicional: completar con el cantón del vehículo (nivel cantón, no calle)."
+revision.kilometraje,≈8,MNAR,"Prueba con medición repetida: quienes no tienen el 1.er dato recorren más km por año (hasta 3 veces más; AUC 0,79).",No usar la media (sesgo hacia abajo). Indicador 'km_faltante' + mediana por clase y edad solo para describir; análisis de sensibilidad.
+vehiculo.modelo / subcategoria,"81,9",Estructural (MAR por origen),Falta en todo el parque INEC: la fuente no trae esa columna.,No imputar; analizar el modelo solo en vehículos SRI.
+vehiculo.pasajeros / tonelaje,"18,1",Estructural (MAR por origen),Falta en todo vehículo SRI.,Imputar con mediana por clase (dependencia clase → tonelaje).
+revision.observaciones,≈90,No aplica,Vacío cuando el vehículo aprueba sin defectos.,Reemplazar por 'SIN OBSERVACIONES'.
+matricula.fecha_matriculacion,"11,5",No aplica,Vacío cuando el estado no es VIGENTE.,Mantener nulo; se valida con la regla estado ↔ fecha.
+SRI COLOR 2 (real),"12,0",MAR,Depende de la clase y el país de origen.,"Imputar con COLOR 1: cuando hay dato, coinciden en el 98,8 %."
+INEC 'OTRAS MARCAS' / SRI cilindraje = 0 (no eléctricos),"0,4 / <0,01",Nulos disfrazados,Valores comodín que esconden un dato desconocido.,"Convertir a nulo y, en cilindraje, imputar con la mediana del mismo modelo."

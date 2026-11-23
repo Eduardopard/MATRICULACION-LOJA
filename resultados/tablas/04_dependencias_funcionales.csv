@@ -1,0 +1,10 @@
+tabla,dependencia,grupos,violaciones,cumple
+vehiculo,placa → id,2821910,0,sí
+vehiculo,numero_chasis → id,2821910,0,sí
+vehiculo,canton → provincia,209,2,casi
+vehiculo,modelo → marca,3513,20,casi
+SRI real,CATEGORÍA → MODELO,5799,0,sí
+SRI real,CATEGORÍA → AV,5799,0,sí
+SRI real,MODELO → MARCA,3513,20,casi
+vehiculo,clase → tipo,11,9,no
+vehiculo+pagos,avaluo → impuesto (tabla SRI),2578907,0,sí

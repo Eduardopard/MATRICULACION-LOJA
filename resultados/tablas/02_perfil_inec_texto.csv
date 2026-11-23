@@ -1,0 +1,11 @@
+columna,tipo_atomico,tipo_fisico,nulos_%,distintos,unicidad,constancia,moda,min,mediana,max,asimetria
+PROVINCIA,,str,0.0,24,0.0,0.2292,GUAYAS,4,8.0,30,
+MARCA,,str,0.0,183,0.0001,0.2748,CHEVROLET,2,7.0,15,
+CLASE,,str,0.0,11,0.0,0.3186,AUTOMÓVIL,3,9.0,11,
+PASAJEROS,,str,0.0,97,0.0,0.5687,5,1,1.0,3,
+TONELAJE,,str,0.0,2017,0.0009,0.4336,",75",1,3.0,18,
+COMBUSTIBLE,,str,0.0,5,0.0,0.863,GASOLINA,6,8.0,23,
+MODELO,,str,0.0,18,0.0,0.1969,2003 y Años Anteriores,4,4.0,22,
+SERVICIO,,str,0.0,4,0.0,0.9085,PARTICULAR,5,10.0,33,
+ESTRATONE,,str,0.0,5,0.0,0.9379,1/4 A 3,7,7.0,12,
+ESTRAPASAJERO,,str,0.0,5,0.0,0.9748,1 A 10,6,6.0,8,

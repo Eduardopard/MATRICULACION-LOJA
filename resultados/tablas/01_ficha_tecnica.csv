@@ -1,0 +1,9 @@
+dataset,filas,columnas,disco_mb,origen
+INEC vehículos matriculados 2019 (real),2311960,10,185.7,https://www.ecuadorencifras.gob.ec/estadisticas-de-transporte-2019/
+SRI vehículos nuevos 2026 (real),509950,20,89.1,https://www.sri.gob.ec/datasets
+ANT sintética · VEHICULO,2821910,21,542.5,generado con src/generar_base_ant.py (semilla 2026)
+ANT sintética · PROPIETARIO,2211545,9,344.3,generado con src/generar_base_ant.py (semilla 2026)
+ANT sintética · MATRICULA,2821910,9,292.8,generado con src/generar_base_ant.py (semilla 2026)
+ANT sintética · REVISION_VEHICULAR,2565592,7,154.0,generado con src/generar_base_ant.py (semilla 2026)
+ANT sintética · PAGOS,10319849,6,704.6,generado con src/generar_base_ant.py (semilla 2026)
+ANT sintética · MULTAS,1032936,7,115.6,generado con src/generar_base_ant.py (semilla 2026)

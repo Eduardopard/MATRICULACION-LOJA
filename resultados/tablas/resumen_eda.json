@@ -1,0 +1,150 @@
+{
+ "ficha": [
+  {
+   "dataset": "INEC vehículos matriculados 2019 (real)",
+   "filas": 2311960,
+   "columnas": 10,
+   "disco_mb": 185.7,
+   "origen": "https://www.ecuadorencifras.gob.ec/estadisticas-de-transporte-2019/"
+  },
+  {
+   "dataset": "SRI vehículos nuevos 2026 (real)",
+   "filas": 509950,
+   "columnas": 20,
+   "disco_mb": 89.1,
+   "origen": "https://www.sri.gob.ec/datasets"
+  },
+  {
+   "dataset": "ANT sintética · VEHICULO",
+   "filas": 2821910,
+   "columnas": 21,
+   "disco_mb": 542.5,
+   "origen": "generado con src/generar_base_ant.py (semilla 2026)"
+  },
+  {
+   "dataset": "ANT sintética · PROPIETARIO",
+   "filas": 2211545,
+   "columnas": 9,
+   "disco_mb": 344.3,
+   "origen": "generado con src/generar_base_ant.py (semilla 2026)"
+  },
+  {
+   "dataset": "ANT sintética · MATRICULA",
+   "filas": 2821910,
+   "columnas": 9,
+   "disco_mb": 292.8,
+   "origen": "generado con src/generar_base_ant.py (semilla 2026)"
+  },
+  {
+   "dataset": "ANT sintética · REVISION_VEHICULAR",
+   "filas": 2565592,
+   "columnas": 7,
+   "disco_mb": 154.0,
+   "origen": "generado con src/generar_base_ant.py (semilla 2026)"
+  },
+  {
+   "dataset": "ANT sintética · PAGOS",
+   "filas": 10319849,
+   "columnas": 6,
+   "disco_mb": 704.6,
+   "origen": "generado con src/generar_base_ant.py (semilla 2026)"
+  },
+  {
+   "dataset": "ANT sintética · MULTAS",
+   "filas": 1032936,
+   "columnas": 7,
+   "disco_mb": 115.6,
+   "origen": "generado con src/generar_base_ant.py (semilla 2026)"
+  }
+ ],
+ "sint_filas": 21773742,
+ "sint_mb": 2153.7999999999997,
+ "inec": {
+  "filas_duplicadas_%": 91.4,
+  "TONELAJE_con_coma_decimal_sin_cero": 1783583,
+  "MODELO_censurado_2003_y_anteriores": 455296,
+  "MARCA_OTRAS_MARCAS": 9336,
+  "TONELAJE_max": 744.0,
+  "PASAJEROS_max": 180
+ },
+ "sri": {
+  "COLOR2_vacio_%": 12.04,
+  "cil0_no_electricos": 31,
+  "cil_max": 299800.0,
+  "filas_duplicadas": 54077
+ },
+ "clases": [
+  {
+   "clase": "MOTOCICLETA",
+   "n": 860968,
+   "pct": 30.5
+  },
+  {
+   "clase": "AUTOMOVIL",
+   "n": 770068,
+   "pct": 27.3
+  },
+  {
+   "clase": "SUV",
+   "n": 494268,
+   "pct": 17.5
+  },
+  {
+   "clase": "CAMIONETA",
+   "n": 461435,
+   "pct": 16.4
+  },
+  {
+   "clase": "CAMION",
+   "n": 120432,
+   "pct": 4.3
+  }
+ ],
+ "mnar": {
+  "n_vehiculos": 50422,
+  "n_falto": 6104,
+  "p_valor": 0.0,
+  "auc": 0.79,
+  "med_falto": 18196.18709150327,
+  "med_dato": 11777.961842105264
+ },
+ "km": {
+  "nulos_%": 7.71,
+  "media_obs": 163807,
+  "sd_obs": 176419,
+  "sd_imputada_media": 169483,
+  "reduccion_var_%": 7.7
+ },
+ "corr": {
+  "pear_av_imp": 0.791,
+  "spear_av_imp": 0.965,
+  "pear_edad_km": 0.603,
+  "spear_edad_km": 0.733,
+  "pear_edad_av": 0.013,
+  "spear_edad_av": 0.064,
+  "pear_pas_ton": 0.255,
+  "spear_pas_ton": 0.512
+ },
+ "anom": [
+  {
+   "anomalia_multivariada": "km por año extremo dentro de su clase (IQR k=3)",
+   "casos": 23437
+  },
+  {
+   "anomalia_multivariada": "avalúo atípico para su clase y edad (Z robusto > 4)",
+   "casos": 69549
+  },
+  {
+   "anomalia_multivariada": "motocicleta con cilindraje > 2.000 cm³",
+   "casos": 415
+  },
+  {
+   "anomalia_multivariada": "impuesto pagado < 48 h antes de matricular (regla Municipio)",
+   "casos": 784
+  },
+  {
+   "anomalia_multivariada": "matriculado desde oct-2026 con multa pendiente previa",
+   "casos": 155
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+tabla,columna,contra,p_valor,efecto,medida
+propietario,telefono,edad,0.9579783645462925,0.5,AUC
+propietario,telefono,rural,0.009066284222946277,0.004,V de Cramér
+propietario,telefono,provincia,0.585338678939781,0.007,V de Cramér
+propietario,email,edad,0.0,0.898,AUC
+propietario,email,rural,0.43585040394903074,0.001,V de Cramér
+propietario,direccion,edad,0.752823816961845,0.501,AUC
+propietario,direccion,rural (vía join),0.0,0.148,V de Cramér
+revision_vehicular,kilometraje,edad del vehículo,0.0,0.822,AUC
+revision_vehicular,kilometraje,servicio,0.0,0.272,V de Cramér
+vehiculo,modelo,origen,0.0,1.0,V de Cramér
+SRI real,COLOR 2,CLASE,0.0,0.095,V de Cramér
+SRI real,COLOR 2,PAÍS,0.0,0.057,V de Cramér
