@@ -1,0 +1,10 @@
+# Datos pesados (>100 MB): se descargan / regeneran, no se suben
+data/raw/*
+!data/raw/.gitkeep
+data/sintetico/*
+!data/sintetico/.gitkeep
+__pycache__/
+.ipynb_checkpoints/
+spark-warehouse/
+metastore_db/
+derby.log
